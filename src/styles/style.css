@@ -95,6 +95,10 @@ h3 {
   z-index: 200;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
 /** BACKGROUNDS **/
 
 .bg-questions {
@@ -127,6 +131,10 @@ h3 {
   background: var(--main-orange);
 }
 
+.background-dark {
+  background: var(--main-dark);
+}
+
 /** COLOR FONTS **/
 .font-orange {
   color: var(--main-orange);
@@ -140,6 +148,14 @@ h3 {
 
 .margin-top-190 {
   margin-top: 195px;
+}
+
+.margin-top-100 {
+ margin-top: 100px;
+}
+
+.margin-top-25 {
+  margin-top: 25px;
 }
 
 .margin-right-30 {
@@ -173,6 +189,14 @@ h3 {
   text-transform: uppercase;
 }
 
+/** MAIN **/
+
+.video {
+  margin-top: 30px;
+  margin-bottom: -100px;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
 
 
 
