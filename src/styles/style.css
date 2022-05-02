@@ -1,7 +1,63 @@
-/** CSS STYLE **/
+/** FONTS **/
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Regular.ttf");
+}
 
-.hello {
-  display: block;
+@font-face {
+  font-family: Neucha;
+  src: url("fonts/Neucha-Regular.ttf");
+}
 
-  color: #fff;
+/** VARIABLES **/
+:root {
+  --white: #fff;
+  --translucent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --main-orange: #fe8a02;
+  --main-dark: #42413c;
+  --dark: #2a2626;
+  --translucent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+/** BASIK **/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #2a2626;
+  font-size: 16px;
+  font-family: "Open Sans", serif;
+  line-height: 1.6em;
+}
+
+.container {
+  width: 1110px;
+
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: Neucha, serif;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: Neucha, serif;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 34px;
+  font-family: Neucha, serif;
+  line-height: 1.2em;
 }
