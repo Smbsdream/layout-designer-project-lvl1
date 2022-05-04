@@ -146,6 +146,10 @@ h4,
   background: var(--light);
 }
 
+.background-white {
+  background: var(--white);
+}
+
 .background-orange {
   background: var(--main-orange);
 }
@@ -174,6 +178,14 @@ h4,
 
 .translucent-dark {
   color: var(--translucent-dark);
+}
+
+.translucent-white {
+  color: var(--translucent-white);
+}
+
+.font-brown {
+  color: var(--brown);
 }
 
 /** FONT SIZE **/
@@ -302,7 +314,6 @@ background: var(--main-orange);
   font-family: "Open Sans", serif;
   line-height: 1.6em;
 }
-
 
 .img {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
