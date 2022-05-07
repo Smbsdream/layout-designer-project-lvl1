@@ -81,7 +81,6 @@ h4,
     line-height: 1.2em;
 }
 
-
 .display-block {
   display: block;
 }
@@ -192,6 +191,14 @@ h4,
 
 .font-size-52 {
   font-size: 52px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-12 {
+  font-size: 12px;
 }
 
 /** MG & PD **/
@@ -317,4 +324,70 @@ background: var(--main-orange);
 
 .img {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+}
+
+/** FOOTTER **/
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 190px;
+}
+
+.footer-title {
+  padding: 55px;
+}
+
+.mail-block {
+  position: relative;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer-mail-input {
+  width:431px;
+  height: 50px;
+
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.footer-btn {
+  position: absolute;
+  top: 36px;
+  left: 430px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70px;
+  height: 50px;
+}
+
+.footer-btn::before {
+  width: 22px;
+  height: 22px;
+
+  background: url(images/send.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  content: "";
+}
+
+.contacts {
+  margin-top: -40px;
+  margin-bottom: 100px;
+
+  font-size: 14px;
+
+  text-align: center;
+}
+
+.contacts p {
+  margin-top: 16px;
 }
