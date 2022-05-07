@@ -211,8 +211,6 @@ h4,
   margin-top: 100px;
 }
 
-
-
 .margin-top-30 {
   margin-top: 30px;
 }
@@ -266,7 +264,7 @@ h4,
   margin-top: 30px;
   margin-bottom: -100px;
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgb(0, 0, 0, 15%));
 }
 
 /** NAV **/
@@ -325,7 +323,7 @@ h4,
 }
 
 .img {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgb(0, 0, 0, 15%));
 }
 
 /** FOOTTER **/
