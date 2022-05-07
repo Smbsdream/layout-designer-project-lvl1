@@ -343,6 +343,7 @@ h4,
 
   margin-top: auto;
   margin-bottom: auto;
+  padding-left: 1px;
 }
 
 .footer-mail-input {
@@ -356,7 +357,7 @@ h4,
 .footer-btn {
   position: absolute;
   top: 36px;
-  left: 415px;
+  left: 414px;
 
   display: flex;
   align-items: center;
