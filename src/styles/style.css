@@ -383,11 +383,12 @@ h4,
   content: "";
 }
 
-.footer-text {
-  width: 100%;
+.contact {
+  padding-bottom: 60px;
 
-  margin-top: 60px;
-
-  line-height: 2.5em;
   text-align: center;
+}
+
+.contact p {
+  margin-bottom: 16px;
 }
